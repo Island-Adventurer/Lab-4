@@ -1,7 +1,8 @@
 #!/bin/bash
-# Log the date and memory usage
+# Resolved Header
 
-echo "DAILY MEMORY CHECK - $(date)" >> /home/vboxuser/Lab_4/system_log.txt
-free -h | grep Mem >> system_log.txt
-echo "--------------------------------" >> system_log.txt
+echo "OFFICIAL SYSTEM REPORT - $(date)" >> /home/vboxuser/Lab_4/system_log.txt
+free -h | grep Mem >> /home/vboxuser/Lab_4/system_log.txt
+echo "--------------------------------" >> /home/vboxuser/Lab_4/system_log.txt
+
 
